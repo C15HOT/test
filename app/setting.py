@@ -2,6 +2,8 @@ from pydantic_settings import BaseSettings
 
 
 
+
+
 class Settings(BaseSettings):
     POSTGRESQL_USER: str
     POSTGRESQL_PASS: str
